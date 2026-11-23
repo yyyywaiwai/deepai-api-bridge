@@ -1,0 +1,15 @@
+{
+  "name": "deepai-api-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenAI-compatible bridge in front of DeepAI Code's local model transport (127.0.0.1:55587)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bridge.mjs",
+    "opencode:print": "node src/opencode-config.mjs --print",
+    "opencode:install": "node src/opencode-config.mjs --install"
+  }
+}
